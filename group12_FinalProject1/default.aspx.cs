@@ -13,5 +13,21 @@ namespace group12_FinalProject1
         {
 
         }
+
+        protected void btnEasy_Click(object sender, EventArgs e)
+        {
+ 
+
+        }
+
+        protected void btnMedium_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btdHard_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -24,11 +24,11 @@
                          <asp:Label runat="server" Text="Hard"></asp:Label>
                     </asp:TableCell>
                     <asp:TableCell>
-                        <asp:Button ID="btnEasy" runat="server" Text="Show" />
+                        <asp:Button ID="btnEasy" onclick="btnEasy_Click" runat="server" Text="Show" />
                         <br />
-                        <asp:Button ID="btnMedium" runat="server" Text="Show" />
+                        <asp:Button ID="btnMedium" onclick="btnMedium_Click" runat="server" Text="Show" />
                         <br />
-                        <asp:Button ID="btdHard" runat="server" Text="Show" />
+                        <asp:Button ID="btdHard" onclick="btdHard_Click" runat="server" Text="Show" />
                     </asp:TableCell>
                     <asp:TableCell></asp:TableCell>
                     <asp:TableCell>
