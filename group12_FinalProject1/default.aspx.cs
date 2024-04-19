@@ -23,12 +23,12 @@ namespace group12_FinalProject1
         protected void btnMedium_Click(object sender, EventArgs e)
         {
             String prob371Title;
-            prob371Title = "Given two integers a and b, return the sum of the two integers without using the operators + and -.\r\n\r\n";
+            prob371Title = " Given two integers a and b, return the sum of the two integers without using the operators + and.Test Code: a=1 b=2";
             lblProblemTitle.Text = prob371Title;
             LeetCodeProblem371 mySolution = new LeetCodeProblem371();
-            String expressionMatch;
-            expressionMatch = mySolution.GetSum(1, 2).ToString();
-            lblSolutionDescription.Text = expressionMatch;
+            String sumofTwoInt;
+            sumofTwoInt = mySolution.GetSum(1, 2).ToString();
+            lblSolutionDescription.Text = sumofTwoInt;
 
         }
 
