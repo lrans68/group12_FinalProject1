@@ -16,7 +16,7 @@ namespace group12_FinalProject1
 
         protected void btnEasy_Click(object sender, EventArgs e)
         {
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 
         }
 
@@ -28,7 +28,7 @@ namespace group12_FinalProject1
         protected void btdHard_Click(object sender, EventArgs e)
         {
             String prob10Title;
-            prob10Title = "Given an inout string s anda pattern p, implement regular expression matching with support for '.' and '*' where: '.' Matches any single character and '*' Matches zero or more of the preceding element. The matching should cover the entire input string (not partial). Test Case: s = aa p = a";
+            prob10Title = "Given an input string s and a pattern p, implement regular expression matching with support for '.' and '*' where: '.' Matches any single character and '*' Matches zero or more of the preceding element. The matching should cover the entire input string (not partial). Test Case: s = aa p = a";
             lblProblemTitle.Text = prob10Title;
             LeetCodeProblem_10 mySolution = new LeetCodeProblem_10();
             String expressionMatch;
