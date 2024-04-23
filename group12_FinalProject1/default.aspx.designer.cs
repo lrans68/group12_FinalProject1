@@ -24,13 +24,13 @@ namespace group12_FinalProject1
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// tblProblems control.
+        /// tbButtons control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Table tblProblems;
+        protected global::System.Web.UI.WebControls.Table tbButtons;
 
         /// <summary>
         /// btnEasy control.
@@ -51,13 +51,22 @@ namespace group12_FinalProject1
         protected global::System.Web.UI.WebControls.Button btnMedium;
 
         /// <summary>
-        /// btdHard control.
+        /// btnHard control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btdHard;
+        protected global::System.Web.UI.WebControls.Button btnHard;
+
+        /// <summary>
+        /// btnClear control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnClear;
 
         /// <summary>
         /// lblProblemTitle control.
@@ -67,6 +76,24 @@ namespace group12_FinalProject1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblProblemTitle;
+
+        /// <summary>
+        /// lblProblemDescription control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblProblemDescription;
+
+        /// <summary>
+        /// lblTestCase control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblTestCase;
 
         /// <summary>
         /// lblSolutionDescription control.
