@@ -16,7 +16,17 @@ namespace group12_FinalProject1
 
         protected void btnEasy_Click(object sender, EventArgs e)
         {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+            String prob118Title;
+            prob118Title = "Given an integer numRows, return the first numRows of Pascal's triangle. Constraints: 1 <= numRows <= 30";
+            lblProblemTitle.Text = prob118Title;
+            LeetCodeProblem118 mySolution = new LeetCodeProblem118();
+            //IList<IList<int>> result = LeetCodeProblem118.Generate(5);
+            //string pascalTriangle;
+            //pascalTriangle = Console.WriteLine("Pascal's Triangle for numRows = " + numRows + ":");
+            //foreach (IList<int> row in result)
+            //{
+            //    Console.WriteLine("[{0}]", string.Join(",", row));
+            //}
 
         }
 
