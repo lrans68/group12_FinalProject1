@@ -31,19 +31,19 @@
             <asp:Table ID="tbButtons" runat="server" HorizontalAlign="Center">
                 <asp:TableHeaderRow>
                     <asp:TableCell>
-                        <asp:Button ID="btnEasy" onclick="BtnEasy_Click" runat="server" Text="Easy" CssClass="button-50" role="button"/>
+                        <asp:Button ID="btnEasy" onclick="BtnEasy_Click" runat="server" Text="Easy" CssClass="button-30" role="button"/>
                     </asp:TableCell>
                     <asp:TableCell>
-                        <asp:Button ID="btnMedium" onclick="BtnMedium_Click" runat="server" Text="Medium" CssClass="button-50" role="button"/>
+                        <asp:Button ID="btnMedium" onclick="BtnMedium_Click" runat="server" Text="Medium" CssClass="button-30" role="button"/>
                     </asp:TableCell>
                     <asp:TableCell>
-                        <asp:Button ID="btnHard" onclick="BtnHard_Click" runat="server" Text="Hard" CssClass="button-50" role="button"/>
+                        <asp:Button ID="btnHard" onclick="BtnHard_Click" runat="server" Text="Hard" CssClass="button-30" role="button"/>
                     </asp:TableCell>
                 </asp:TableHeaderRow>
                 <asp:TableRow>
                     <asp:TableCell></asp:TableCell>
                     <asp:TableCell>
-                        <asp:Button ID="btnClear" OnClick="btnClear_Click" runat ="server" Text="Clear" CssClass="button-50" role="button" />
+                        <asp:Button ID="btnClear" OnClick="btnClear_Click" runat ="server" Text="Clear" CssClass="button-30" role="button" />
                     </asp:TableCell>
                 </asp:TableRow>
                  </asp:Table>
