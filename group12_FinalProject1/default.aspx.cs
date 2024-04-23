@@ -16,17 +16,13 @@ namespace group12_FinalProject1
 
         protected void btnEasy_Click(object sender, EventArgs e)
         {
-            String prob118Title;
-            prob118Title = "Given an integer numRows, return the first numRows of Pascal's triangle. Constraints: 1 <= numRows <= 30";
-            lblProblemTitle.Text = prob118Title;
-            LeetCodeProblem118 mySolution = new LeetCodeProblem118();
-            //IList<IList<int>> result = LeetCodeProblem118.Generate(5);
-            //string pascalTriangle;
-            //pascalTriangle = Console.WriteLine("Pascal's Triangle for numRows = " + numRows + ":");
-            //foreach (IList<int> row in result)
-            //{
-            //    Console.WriteLine("[{0}]", string.Join(",", row));
-            //}
+            String prob20Title;
+            prob20Title = "Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.\r\n\r\nAn input string is valid if:\r\n\r\nOpen brackets must be closed by the same type of brackets.\r\nOpen brackets must be closed in the correct order.\r\nEvery close bracket has a corresponding open bracket of the same type. Test Case: ()";
+            lblProblemTitle.Text = prob20Title;
+            LeetCodeProblem20 mySolution = new LeetCodeProblem20();
+            String validParenthsis;
+            validParenthsis = mySolution.IsValid("()").ToString();
+            lblSolutionDescription.Text = validParenthsis;
 
         }
 
